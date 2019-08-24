@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>homepage</title>
+		<link rel="stylesheet" type="text/css" href="oep.css"/>
+	</head>
+
+  
+  <body style="	background: url(pic/m.jpg);	background-repeat: no-repeat;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	opacity:1;" >
+	<div class="navbar">
+		<ul >
+		<li ><strong><a class="padd" href="#home" style=";letter-spacing:2px "> H&C </a></strong></li>
+		<li><a class="active" href="oep.jsp">Home</a></li>
+		<!-- <li><a href="#contact">Contact</a></li>-->
+		<li style="float:right"><a href="login.jsp">Login</a></li>
+		<li style="float:right"><a href="Signup.jsp">SignUp</a></li>
+
+		</ul>
+		</div>
+	<div class="medi">
+		<table>
+		<tr>
+		<th><strong>Medicine</strong></th>
+		<th><strong>Symptoms</strong></th>
+		<th><strong>Company Name</strong></th>
+		</tr>
+		<tr>
+		<td><b>Paracetamol</b></td>
+		<td>Fever, Analgesic, Head ache, Body ache</td>
+		<td>Crocin  calpol(GSK), pacimol (IPCA)</td>
+		</tr>
+		<tr>
+		<td><b>mefanamic acid</b></td>
+		<td>Analgesic in muscle joint and soft tissue pain, dysmenorrhoea, dental pain</td>
+		<td>Meftalspas SPS(Blue cross), meftal fort(Blue cross)</td>
+		</tr>
+		<tr>
+		<td><b>aspirin</b></td>
+		<td>Profilelaxis in c/o increased risk of bood clotting, myocardial infarction, CV stroke</td>
+		<td>Ecosprin(USV), sprin(Alkem),Zosprin(medley), dispirin(Reckitt Benckiser)
+		</td>
+		</tr>
+		<tr>
+		<td><b>Ibuprofen</b></td>
+		<td>Dental and traumatic inflammation, muscular pain</td>
+		<td>Ibugesic(Cipla), inflapen CR (GSK), combiflam(Aventis)</td>
+		</tr>
+		<tr>
+		<td><b>diclofenac</b></td>
+		<td>Painful inflammatory conditions eg. Low back pain, arthritis, sports injuries, sprains, tendinitis, pain following surgeical procedures</td>
+		<td>Voveran(Novaratis),Rolosol(Tidal lab), Dinapar(troika), diclofenac(Lark Labs)
+        </td>
+		</tr>
+		<tr>
+		<td><b>Morphine</b></td>
+		<td>Severe intractable pain like fractures, terminal malignancy burns, acute MI, pre-anesthetic medication</td>
+		<td>Duramor(Biological E), morcontin(Modi mundi)</td>
+		</tr>
+		<tr>
+		<td><b>Tramadol</b></td>
+		<td>Moderate to severe acute or chronic pain like arthralgia, low back pain, fracture pain,colics</td>
+		<td>Dolotram(Sun Pharma) Tolydol(IPCA), Trump(Alken)</td>
+		</tr>
+		</table>
+	</div>
+</body>
+</html>
+		
