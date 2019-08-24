@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+ <!--   <link href="css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="oep.css"/>
+  </head>
+<body>
+<div class="navbar">
+<ul>
+  <li><a class="padd" href="#home" ></a></li>
+  <li><a class="active" href="#news">Home</a></li>
+ <!-- <li><a href="#contact">Contact</a></li>-->
+  <li style="float:right"><a href="#about">Login</a></li>
+  <li style="float:right"><a href="#Doctor">SignUp</a></li>
+</ul>
+</div>
+<div class="maindiv">
+<img class="imgcss" src="bg1.jpg">	
+<!--<div class="box">
+<input class="searchbox" type="text" name="search_res" placeholder="Search by...."/>
+</div>-->
+</div>
+<div class="quotes">
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="eyes.jpg" style="width:75%">
+
+</div>
+
+<div class="mySlides fade">
+  <img src="brain.jpg" style="width:75%">
+
+</div>
+
+<div class="mySlides fade">
+ <img src="teeth.jpg" style="width:75%">
+
+</div>
+
+</div>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
