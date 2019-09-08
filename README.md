@@ -1,5 +1,5 @@
 # Health-and-Care
-It is a website build using two different concepts as listed.
+It is a website build using two different technologies: using PHP and JSP.
 Today wide-reaching multiple health care provisions such as hospitals, medical stores as well as laboratories has been developed. All hold their own price on various services. The H & C (Health & Care) Website was designed as it would be advantageous to people if they get a platform where they can get information regarding such services & can even compare to get best outcome.
 
 Technology Used: PHP, HTML, CSS, MySql, Wamp Server, JSP, Java, Tomcat Server
